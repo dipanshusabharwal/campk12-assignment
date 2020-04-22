@@ -1,0 +1,301 @@
+{
+  "cards": [
+    {
+      "name": "Web Development",
+      "url": "/resources/cards/web-development.svg"
+    },
+    {
+      "name": "Mobile App Development",
+      "url": "/resources/cards/mobile-development.svg"
+    },
+    {
+      "name": "Mixed Reality (AR/VR)",
+      "url": "/resources/cards/mixed-reality.svg"
+    },
+    {
+      "name": "Machine Learning (AI)",
+      "url": "/resources/cards/machine-learning.svg"
+    },
+    {
+      "name": "3D Coding",
+      "url": "/resources/cards/web-development.svg"
+    },
+    {
+      "name": "Python Programming",
+      "url": "/resources/cards/mobile-development.svg"
+    }
+  ],
+  "courseCards": [
+    {
+      "category": "mobile apps",
+      "imgUrl": "/resources/course-cards/android-development.jpg",
+      "courseName": "Android App Development Level 1",
+      "courseGradeFrom": 4,
+      "courseGradeTo": 8,
+      "coursePreRequisites": "No",
+      "skillsRequired": [
+        "android",
+        "ui/ux",
+        "java",
+        "netbeans",
+        "netbeans",
+        "netbeans"
+      ],
+      "coinsEarned": 1000,
+      "startsOn": "April 30, 2020",
+      "courseDay": ["Mon", "Tue", "Wed"],
+      "startTime": "6:00PM",
+      "endTime": "7:00PM",
+      "cost": "6,000"
+    },
+    {
+      "category": "web development",
+      "imgUrl": "/resources/course-cards/web-development.jpg",
+      "courseName": "Web Development Level 1",
+      "courseGradeFrom": 4,
+      "courseGradeTo": 12,
+      "coursePreRequisites": "No",
+      "skillsRequired": ["html", "css", "javascript", "jquery"],
+      "coinsEarned": 1000,
+      "startsOn": "April 26, 2020",
+      "courseDay": ["Mon", "Tue", "Wed"],
+      "startTime": "6:00PM",
+      "endTime": "7:00PM",
+      "cost": "6,000"
+    },
+    {
+      "category": "mixed reality",
+      "imgUrl": "/resources/course-cards/mixed-reality.jpg",
+      "courseName": "Virtual Reality Level 1",
+      "courseGradeFrom": 5,
+      "courseGradeTo": 12,
+      "coursePreRequisites": "Yes",
+      "skillsRequired": [
+        "vr",
+        "javascript",
+        "python",
+        "python",
+        "python",
+        "python"
+      ],
+      "coinsEarned": 1000,
+      "startsOn": "April 28 2020",
+      "courseDay": ["Mon", "Tue", "Wed"],
+      "startTime": "6:00PM",
+      "endTime": "7:00PM",
+      "cost": "6,000"
+    }
+  ],
+  "onlineOfferrings": [
+    {
+      "imgUrl": "resources/online-offerrings/learn-live.svg",
+      "offerringTitle": "Learn interactively",
+      "offerringDescription": "LIVE online sessions with our expert mentors.",
+      "offerringExternalLink": true,
+      "offerringLinkTitle": "See a demo",
+      "offeringHyperlink": "https://www.youtube.com/watch?v=vl9V8YVV_54&feature=emb_title"
+    },
+    {
+      "imgUrl": "resources/online-offerrings/learn-from-home.svg",
+      "offerringTitle": "Learn from anywhere",
+      "offerringDescription": "Convenience and safety for you and your child.",
+      "offerringExternalLink": false
+    },
+    {
+      "imgUrl": "resources/online-offerrings/learn-from-pioneers.svg",
+      "offerringTitle": "Learn from the pioneers",
+      "offerringDescription": "We’ve been teaching kids to code since 2010.",
+      "offerringExternalLink": true,
+      "offerringLinkTitle": "Read more.",
+      "offeringHyperlink": "https://yourstory.com/2016/12/camp-k12  "
+    },
+    {
+      "imgUrl": "resources/online-offerrings/learn-by-doing.svg",
+      "offerringTitle": "Learn by doing.",
+      "offerringDescription": "100% project-based curriculum. Solve real-world problems.",
+      "offerringExternalLink": false
+    }
+  ],
+  "onlineCourses": [
+    {
+      "imgUrl": "https://via.placeholder.com/320x150",
+      "courseTitle": "AI : Code Intelligent Bots",
+      "courseType": "AI/VR",
+      "courseLevel": 1,
+      "courseGradeFrom": 1,
+      "courseGradeTo": 4,
+      "courseStrength": 7600,
+      "courseHours": 10,
+      "courseSessions": 4,
+      "courseBatches": "Weekend and Weekday Batches",
+      "courseOriginalCost": 12000,
+      "courseDiscountedCost": 9999,
+      "courseDiscountPercent": 16
+    },
+    {
+      "imgUrl": "https://via.placeholder.com/320x150",
+      "courseTitle": "Machine Learning: Code Intelligent Bots",
+      "courseType": "AI/VR",
+      "courseLevel": 2,
+      "courseGradeFrom": 5,
+      "courseGradeTo": 8,
+      "courseStrength": 9600,
+      "courseHours": 14,
+      "courseSessions": 8,
+      "courseBatches": "Weekend and Weekday Batches",
+      "courseOriginalCost": 12000,
+      "courseDiscountedCost": 9999,
+      "courseDiscountPercent": 16
+    },
+    {
+      "imgUrl": "https://via.placeholder.com/320x150",
+      "courseTitle": "AI & Machine Learning: Code Intelligent Bots",
+      "courseType": "AI/VR",
+      "courseLevel": 3,
+      "courseGradeFrom": 9,
+      "courseGradeTo": 12,
+      "courseStrength": 3600,
+      "courseHours": 18,
+      "courseSessions": 12,
+      "courseBatches": "Weekend and Weekday Batches",
+      "courseOriginalCost": 12000,
+      "courseDiscountedCost": 9999,
+      "courseDiscountPercent": 16
+    },
+    {
+      "imgUrl": "https://via.placeholder.com/320x150",
+      "courseTitle": "Android App",
+      "courseType": "Mobile Development",
+      "courseLevel": 1,
+      "courseGradeFrom": 1,
+      "courseGradeTo": 4,
+      "courseStrength": 7600,
+      "courseHours": 10,
+      "courseSessions": 4,
+      "courseBatches": "Weekend and Weekday Batches",
+      "courseOriginalCost": 12000,
+      "courseDiscountedCost": 9999,
+      "courseDiscountPercent": 16
+    },
+    {
+      "imgUrl": "https://via.placeholder.com/320x150",
+      "courseTitle": "iOS App",
+      "courseType": "Mobile Development",
+      "courseLevel": 2,
+      "courseGradeFrom": 5,
+      "courseGradeTo": 8,
+      "courseStrength": 9600,
+      "courseHours": 14,
+      "courseSessions": 8,
+      "courseBatches": "Weekend and Weekday Batches",
+      "courseOriginalCost": 12000,
+      "courseDiscountedCost": 9999,
+      "courseDiscountPercent": 16
+    },
+    {
+      "imgUrl": "https://via.placeholder.com/320x150",
+      "courseTitle": "Hybrid Mobile App",
+      "courseType": "Mobile Development",
+      "courseLevel": 3,
+      "courseGradeFrom": 9,
+      "courseGradeTo": 12,
+      "courseStrength": 3600,
+      "courseHours": 18,
+      "courseSessions": 12,
+      "courseBatches": "Weekend and Weekday Batches",
+      "courseOriginalCost": 12000,
+      "courseDiscountedCost": 9999,
+      "courseDiscountPercent": 16
+    },
+    {
+      "imgUrl": "https://via.placeholder.com/320x150",
+      "courseTitle": "Stock Application",
+      "courseType": "Web Development",
+      "courseLevel": 1,
+      "courseGradeFrom": 1,
+      "courseGradeTo": 4,
+      "courseStrength": 7600,
+      "courseHours": 10,
+      "courseSessions": 4,
+      "courseBatches": "Weekend and Weekday Batches",
+      "courseOriginalCost": 12000,
+      "courseDiscountedCost": 9999,
+      "courseDiscountPercent": 16
+    },
+    {
+      "imgUrl": "https://via.placeholder.com/320x150",
+      "courseTitle": "Timer App",
+      "courseType": "Web Development",
+      "courseLevel": 2,
+      "courseGradeFrom": 5,
+      "courseGradeTo": 8,
+      "courseStrength": 9600,
+      "courseHours": 14,
+      "courseSessions": 8,
+      "courseBatches": "Weekend and Weekday Batches",
+      "courseOriginalCost": 12000,
+      "courseDiscountedCost": 9999,
+      "courseDiscountPercent": 16
+    },
+    {
+      "imgUrl": "https://via.placeholder.com/320x150",
+      "courseTitle": "Blog Application",
+      "courseType": "Web Development",
+      "courseLevel": 3,
+      "courseGradeFrom": 9,
+      "courseGradeTo": 12,
+      "courseStrength": 3600,
+      "courseHours": 18,
+      "courseSessions": 12,
+      "courseBatches": "Weekend and Weekday Batches",
+      "courseOriginalCost": 12000,
+      "courseDiscountedCost": 9999,
+      "courseDiscountPercent": 16
+    },
+    {
+      "imgUrl": "https://via.placeholder.com/320x150",
+      "courseTitle": "Web Scrapper",
+      "courseType": "Python",
+      "courseLevel": 1,
+      "courseGradeFrom": 1,
+      "courseGradeTo": 4,
+      "courseStrength": 7600,
+      "courseHours": 10,
+      "courseSessions": 4,
+      "courseBatches": "Weekend and Weekday Batches",
+      "courseOriginalCost": 12000,
+      "courseDiscountedCost": 9999,
+      "courseDiscountPercent": 16
+    },
+    {
+      "imgUrl": "https://via.placeholder.com/320x150",
+      "courseTitle": "Corona Tracker",
+      "courseType": "Machine Learning",
+      "courseLevel": 2,
+      "courseGradeFrom": 5,
+      "courseGradeTo": 8,
+      "courseStrength": 9600,
+      "courseHours": 14,
+      "courseSessions": 8,
+      "courseBatches": "Weekend and Weekday Batches",
+      "courseOriginalCost": 12000,
+      "courseDiscountedCost": 9999,
+      "courseDiscountPercent": 16
+    },
+    {
+      "imgUrl": "https://via.placeholder.com/320x150",
+      "courseTitle": "Blog Application",
+      "courseType": "Web Development",
+      "courseLevel": 1,
+      "courseGradeFrom": 9,
+      "courseGradeTo": 12,
+      "courseStrength": 3600,
+      "courseHours": 18,
+      "courseSessions": 12,
+      "courseBatches": "Weekend and Weekday Batches",
+      "courseOriginalCost": 12000,
+      "courseDiscountedCost": 9999,
+      "courseDiscountPercent": 16
+    }
+  ]
+}
