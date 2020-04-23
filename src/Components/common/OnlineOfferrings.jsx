@@ -3,13 +3,14 @@ import data from "../../data.json";
 import uuid from "uuid-random";
 import "./OnlineOfferrings.css";
 
+//card for online offerrings at /online-courses
 function OnlineOfferrings() {
   return (
     <div className="row">
       {data.onlineOfferrings.map((offer, i) => {
         return (
           <div
-            className="card col-3 py-3 border-0"
+            className="card col-12 col-sm-8 col-md-6 col-lg-3 py-3 border-0"
             style={{ background: "transparent" }}
             key={uuid()}
           >
@@ -29,10 +30,10 @@ function OnlineOfferrings() {
             )}
 
             <div className="card-body p-0 py-3">
-              <h5 className="card-title font-weight-bold">
+              <h6 className="card-title font-weight-bold">
                 {offer.offerringTitle}
-              </h5>
-              <p className="card-text">
+              </h6>
+              <p className="card-text small">
                 {offer.offerringDescription}{" "}
                 {offer.offerringExternalLink ? (
                   <u>

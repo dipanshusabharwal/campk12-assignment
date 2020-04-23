@@ -1,18 +1,20 @@
 import React from "react";
 import uuid from "uuid-random";
+import "./OnlineCourseCard.css";
 
+//card for online course offerred
 function OnlineCourseCard(props) {
   return (
-    <div className="row justify-content-center">
+    <div className="row justify-content-center p-2">
       {props.courses.map((course) => {
         return (
           <div
-            className="card col-3 bg-light ml-5 mb-4 mt-5 rounded border p-0"
+            className="card col-sm-12 col-md-6 col-lg-3 bg-light mx-2 mb-3 mt-3 rounded border p-0"
             key={uuid()}
           >
             <img src={course.imgUrl} className="card-img-top" alt="Card" />
             <div className="card-body">
-              <h6 className="card-title font-weight-bold">
+              <h6 className="card-title font-weight-bold name-size">
                 {course.courseTitle}
               </h6>
               <hr />

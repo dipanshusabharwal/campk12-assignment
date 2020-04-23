@@ -25,13 +25,13 @@ body {
 .live-button {
   border-radius: 5px;
   background-color: #de9dff;
-  padding: 0px 30px;
+  padding: 0px 20px;
   text-transform: uppercase;
 }
 
 .dot {
-  height: 10px;
-  width: 10px;
+  height: 8px;
+  width: 8px;
   background: white;
   border-radius: 50%;
   display: inline-block;
@@ -55,4 +55,16 @@ body {
 .enroll-user {
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+@media (max-width: 768px) {
+  .banner-img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 900px) {
+  .banner-img {
+    width: 400px;
+  }
 }

@@ -2,15 +2,18 @@ import React from "react";
 import uuid from "uuid-random";
 import "./CourseCard.css";
 
+//card that display a course offered at landing page
 const CourseCard = (props) => {
   return (
-    <div className="card col-3 bg-light ml-5 rounded p-0">
+    <div className="card col-10 col-sm-10 col-md-6 col-lg-3 col bg-light m-2 rounded p-0 shadow shadow-lg">
       <img src={props.course.imgUrl} className="card-img-top" alt="Card" />
       <div className="card-img-overlay img-overlay rounded text-light">
         {props.course.category}
       </div>
       <div className="card-body">
-        <h6 className="card-title">{props.course.courseName}</h6>
+        <h6 className="card-title title-size font-weight-bold">
+          {props.course.courseName} Level {props.course.courseLevel}
+        </h6>
         <hr />
         <div className="d-flex justify-content-between">
           <div>
@@ -38,7 +41,7 @@ const CourseCard = (props) => {
             className="mr-3 course-card-img"
           />
           {props.course.skillsRequired.map((skill, i) => {
-            return i < 3 ? (
+            return i < 2 ? (
               <div className="mr-2 skills rounded p-1 px-2" key={uuid()}>
                 {skill}
               </div>

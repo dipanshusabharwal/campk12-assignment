@@ -29,7 +29,8 @@
     {
       "category": "mobile apps",
       "imgUrl": "/resources/course-cards/android-development.jpg",
-      "courseName": "Android App Development Level 1",
+      "courseName": "Android App Development",
+      "courseLevel": 1,
       "courseGradeFrom": 4,
       "courseGradeTo": 8,
       "coursePreRequisites": "No",
@@ -51,7 +52,8 @@
     {
       "category": "web development",
       "imgUrl": "/resources/course-cards/web-development.jpg",
-      "courseName": "Web Development Level 1",
+      "courseName": "Web Development",
+      "courseLevel": 1,
       "courseGradeFrom": 4,
       "courseGradeTo": 12,
       "coursePreRequisites": "No",
@@ -66,7 +68,8 @@
     {
       "category": "mixed reality",
       "imgUrl": "/resources/course-cards/mixed-reality.jpg",
-      "courseName": "Virtual Reality Level 1",
+      "courseName": "Virtual Reality",
+      "courseLevel": 1,
       "courseGradeFrom": 5,
       "courseGradeTo": 12,
       "coursePreRequisites": "Yes",
@@ -119,7 +122,7 @@
   "onlineCourses": [
     {
       "imgUrl": "https://via.placeholder.com/320x150",
-      "courseTitle": "AI : Code Intelligent Bots",
+      "courseTitle": "AI : Code Bots",
       "courseType": "AI/VR",
       "courseLevel": 1,
       "courseGradeFrom": 1,
@@ -134,7 +137,7 @@
     },
     {
       "imgUrl": "https://via.placeholder.com/320x150",
-      "courseTitle": "Machine Learning: Code Intelligent Bots",
+      "courseTitle": "Machine Learning: Code Bots",
       "courseType": "AI/VR",
       "courseLevel": 2,
       "courseGradeFrom": 5,
@@ -149,7 +152,7 @@
     },
     {
       "imgUrl": "https://via.placeholder.com/320x150",
-      "courseTitle": "AI & Machine Learning: Code Intelligent Bots",
+      "courseTitle": "AI & Machine Learning: Code Bots",
       "courseType": "AI/VR",
       "courseLevel": 3,
       "courseGradeFrom": 9,
